@@ -12,7 +12,7 @@ class X2Test {
         int c = 1;
         int x = 1;
         int expected = 3;
-        int rsl = X2.calc(1, 1, 1, 1);
+        int rsl = X2.calc(a, b, c, x);
         assertThat(rsl).isEqualTo(expected);
     }
 
@@ -23,7 +23,7 @@ class X2Test {
         int c = 1;
         int x = 1;
         int expected = 2;
-        int rsl = X2.calc(0, 1, 1, 1);
+        int rsl = X2.calc(a, b, c, x);
         assertThat(rsl).isEqualTo(expected);
     }
 
@@ -34,7 +34,7 @@ class X2Test {
         int c = 0;
         int x = 1;
         int expected = 2;
-        int rsl = X2.calc(1, 1, 0, 1);
+        int rsl = X2.calc(a, b, c, x);
         assertThat(rsl).isEqualTo(expected);
     }
 
@@ -45,7 +45,7 @@ class X2Test {
         int c = 1;
         int x = 0;
         int expected = 1;
-        int rsl = X2.calc(1, 1, 1, 0);
+        int rsl = X2.calc(a, b, c, x);
         assertThat(rsl).isEqualTo(expected);
     }
 }
