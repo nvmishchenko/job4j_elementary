@@ -17,7 +17,7 @@ class PointTest {
     }
 
     @Test
-    void when01To23Then282() {
+    void when01To23Then2dot82() {
         int x1 = 0;
         int y1 = 1;
         int x2 = 2;
@@ -28,7 +28,7 @@ class PointTest {
     }
 
     @Test
-    void when32To10Then282() {
+    void when32To10Then2dot82() {
         int x1 = 3;
         int y1 = 2;
         int x2 = 1;
@@ -39,7 +39,7 @@ class PointTest {
     }
 
     @Test
-    void when73To115Then447() {
+    void when73To115Then4dot47() {
         int x1 = 7;
         int y1 = 3;
         int x2 = 11;
