@@ -7,7 +7,7 @@ class MortgageTest {
 
     @Test
     void whenAmount1000Salary1200Percent1ThenYear1() {
-        int amount = 10000;
+        int amount = 1000;
         int salary = 1200;
         double percent = 1;
         int result = Mortgage.year(amount, salary, percent);
